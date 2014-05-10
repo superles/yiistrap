@@ -1,6 +1,6 @@
 {
-    "name": "crisu83/yiistrap",
-    "description": "Twitter Bootstrap for the Yii PHP framework.",
+    "name": "superles/yiistrap",
+    "description": "Fork Twitter Bootstrap for the Yii PHP framework.",
     "keywords": ["bootstrap", "yii"],
     "type": "library",
     "license": "BSD-3-Clause",
@@ -18,12 +18,12 @@
     ],
     "require-dev": {
         "codeception/codeception": "@stable",
-        "crisu83/yii-composer": ">=1.0.0",
+        "superles/yii-composer": ">=1.0.0",
         "yiisoft/yii": ">=1.1.13"
     },
     "scripts": {
         "post-install-cmd": [
-            "Crisu83\\YiiComposer\\InstallHandler::setPermissions"
+            "superles\\YiiComposer\\InstallHandler::setPermissions"
         ]
     },
     "extra": {
